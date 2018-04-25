@@ -102,6 +102,33 @@ header a {
 	cursor: pointer;
 }
 
+.navbar {
+    margin-left: 30px;
+    color: #BACCD6;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    float: left;
+    display: block;
+    padding: 5px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #BACCD6;
+    cursor: pointer;
+}
+
+.navbar-link-selected {
+    color: white;
+}
+
 .wrapper {
 	margin: 2rem;
 	float: left;

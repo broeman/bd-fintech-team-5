@@ -4,5 +4,13 @@
     <div class="triangle3"></div>
     <a [routerLink]="['']">Pengebanken</a>
 </header>
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li ng-class="{ active: isActive('/')}"><a class="navbar-link" [routerLink]="['/']">Forside</a></li>
+        <li><a class="navbar-link" [routerLink]="['/transactions']">Kontobevægelser</a></li> 
+        <li><a class="navbar-link" [routerLink]="['/overview']">Overblik</a></li> 
+        <li><a class="navbar-link" [routerLink]="['/bankbot']">Banky Bot</a></li>
+    </ul>
+</nav>
 <div secret></div>
 <router-outlet></router-outlet>
