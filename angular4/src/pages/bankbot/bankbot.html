@@ -1,7 +1,7 @@
 <div id="chatbot" class="wrapper">
 	<div id="chat-box">
 		<h3>Banky Bot</h3>
-		<div id="chat-window">
+		<div id="chat-window" #scrollMe [scrollTop]="scrollMe.scrollHeight">
 			<div class="chat" *ngFor="let msg of messages">
 				<div class="image {{msg.sender}}"></div>
 				<p class="chat-message {{msg.sender}}"> {{msg.message}}</p>
