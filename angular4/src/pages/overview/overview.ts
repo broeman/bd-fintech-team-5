@@ -34,7 +34,7 @@ export class Overview {
         },
         yAxis: {
             title: '',
-            reversed: 'false'
+            reversed: false
         },
         tooltip: {
             headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
