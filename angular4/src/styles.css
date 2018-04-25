@@ -92,12 +92,11 @@ header .triangle3 {
 }
 
 header a {
-	text-decoration: none;
 	color: white;
+    text-decoration: none;
 }
 
 .nav-link {
-	text-decoration: none;
 	color: black;
 	cursor: pointer;
 }
@@ -166,6 +165,7 @@ header a {
 }
 
 #front .account div {
+    text-decoration: underline;
 	width: 33.3%;
 	float: left;
 }
@@ -181,8 +181,8 @@ header a {
 }
 
 #transactions .account a {
-	text-decoration: none;
 	color: #000;
+    text-decoration: underline;
 }
 
 #transactions .transactions {
@@ -298,6 +298,11 @@ header a {
 #chatbot .image.bot {
 	background:url('./gfx/botimg.png');
 	background-size: contain;
+}
+
+#chatbot .image.self {
+    background:url('./gfx/wiwe.jpg');
+    background-size: contain;
 }
 
 /*END: chatbot*/
